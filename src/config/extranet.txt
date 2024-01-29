@@ -1,0 +1,9 @@
+{
+	"target": "auto",
+	"hackPercent": 0.75,
+	"maxBatches": 100000,
+	"msPerFrame": 15,
+	"reservedMemory": {
+		"home": 1e20
+	}
+}

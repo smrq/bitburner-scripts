@@ -1,0 +1,8 @@
+{
+	"names": ["Terra", "Locke", "Edgar", "Sabin", "Cyan", "Gau", "Celes", "Setzer", "Strago", "Relm", "Shadow", "Gogo"],
+	"enableAscension": true,
+	"vigilanteMembers": 0,
+	"trainMemberPercentage": 0.5,
+	"memberRespectGoal": 5e6,
+	"maxEquipCostPercent": 0.05
+}

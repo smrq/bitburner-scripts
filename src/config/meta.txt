@@ -1,0 +1,62 @@
+{
+	updateRate: 5000,
+	modules: {
+		autoroot: {
+			enable: true,
+		},
+		purchasePrograms: {
+			enable: true,
+			maxSpendRatio: 1,
+		},
+		improveHome: {
+			enable: true,
+			maxSpendRatio: 1,
+		},
+		improvePurchasedServers: {
+			enable: true,
+			maxSpendRatio: 0.25,
+		},
+		backdoorServers: {
+			enable: true,
+			hostnames: ["CSEC", "avmnite-02h", "I.I.I.I", "run4theh111z", "w0r1d_d43m0n"],
+		},
+		joinFactions: {
+			enable: true,
+			factions: [
+				"CyberSec",
+				"NiteSec",
+				"The Black Hand",
+				"BitRunners",
+				"Daedalus",
+				"Tian Di Hui",
+				"Slum Snakes",
+				"Tetrads",
+				"The Syndicate",
+			],
+		},
+		assignWork: {
+			enable: true,
+			priority: [
+				{ type: "crime", targetKarma: -54000 },
+
+				{ type: "faction", faction: "Tian Di Hui", targetRep: 6250 },
+
+				{ type: "faction", faction: "Daedalus", targetFavor: 150, targetRep: 2500000 },
+
+				{ type: "faction", faction: "BitRunners", targetFavor: 50, targetRep: 1000000 },
+				{ type: "faction", faction: "The Black Hand", targetFavor: 50, targetRep: 100000 },
+				{ type: "faction", faction: "NiteSec", targetFavor: 50, targetRep: 45000 },
+
+				{ type: "faction", faction: "BitRunners", targetFavor: 100, targetRep: 1000000 },
+				{ type: "faction", faction: "The Black Hand", targetFavor: 100, targetRep: 100000 },
+				{ type: "faction", faction: "NiteSec", targetFavor: 100, targetRep: 45000 },
+
+				{ type: "faction", faction: "BitRunners", targetFavor: 150, targetRep: 1000000 },
+				{ type: "faction", faction: "The Black Hand", targetFavor: 150, targetRep: 100000 },
+				{ type: "faction", faction: "NiteSec", targetFavor: 150, targetRep: 45000 },
+				
+				{ type: "faction", faction: "BitRunners" },
+			]
+		},
+	},
+}

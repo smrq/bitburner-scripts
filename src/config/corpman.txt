@@ -1,0 +1,99 @@
+{
+	corporationName: 'Tantalus',
+	selfFund: false,
+	agricultureDivisionName: 'Tantalus Eggplants',
+	chemicalDivisionName: 'Tantalus Lubricant',
+	tobaccoDivisionName: 'Tantalus Aphrodisiacs',
+	dummyDivisionNamePrefix: 'Tantalus Shell',
+	round1: {
+		agriculture: {
+			employees: 3,
+			warehouseLevel: 6,
+			advertLevel: 2,
+			boostMaterialPercentage: 0.87,
+		},
+		smartStorageLevel: 9,
+		smartFactoriesLevel: 0,
+	},
+	round2: {
+		agriculture: {
+			employees: 6,
+			warehouseLevel: 10,
+			advertLevel: 2,
+			boostMaterialPercentage: 0.8,
+			targetRP: 245,
+		},
+		chemical: {
+			employees: 3,
+			warehouseLevel: 1,
+			advertLevel: 0,
+			boostMaterialPercentage: 0.95,
+			targetRP: 150,
+		},
+		dummyDivisions: 18,
+		smartStorageLevel: 15,
+		smartFactoriesLevel: 9,
+	},
+	round3: {
+		agriculture: {
+			budget: 500e9,
+			boostMaterialPercentage: 0.8,
+		},
+		chemical: {
+			budget: 110e9,
+			boostMaterialPercentage: 0.8,
+		},
+		tobacco: {
+			employees: 3,
+			warehouseLevel: 1,
+			advertLevel: 0,
+			boostMaterialPercentage: 0.8,
+			mainCity: 'Sector-12',
+			newProductBudget: 1e9,
+			researchAllocation: 'all',
+			productNamePrefix: 'Pheromone X-69',
+		},
+		materialBudgetRatio: {
+			warehouse: 1,
+			office: 9,
+		},
+		materialEmployeeRatio: {
+			// https://github.com/catloversg/bitburner-scripts/blob/6a9e047ccd068ae65ec99b4d84ed40d74ca67dd6/src/corporationBenchmark.ts#L116
+			Operations: 0.22,
+			Engineer: 0.632,
+			Business: 0,
+			Management: 0.148
+		},
+		productBudgetRatio: {
+			rawProduction: 1,
+			wilsonAdvert: 4,
+			mainOffice: 6,
+			supportOffice: 2,
+			employeeStatUpgrades: 8,
+			salesBot: 1,
+			projectInsight: 1,
+		},
+		productEmployeeRatio: {
+			// https://github.com/catloversg/bitburner-scripts/blob/6a9e047ccd068ae65ec99b4d84ed40d74ca67dd6/src/corporationBenchmark.ts#L185
+			Operations: 0.037,
+			Engineer: 0.513,
+			Business: 0.011,
+			Management: 0.44
+		},
+		research: {
+			'Hi-Tech R&D Laboratory': 1,
+			'Automatic Drug Administration': 12.5,
+			'CPH4 Injections': 5,
+			'Drones': 50,
+			'Drones - Assembly': 10,
+			'Drones - Transport': 10,
+			'Go-Juice': 5,
+			'Overclock': 5,
+			'Self-Correcting Assemblers': 10,
+			'Sti.mu': 5,
+		},
+		productResearch: {
+			'uPgrade: Fulcrum': 10,
+		}
+	},
+}
